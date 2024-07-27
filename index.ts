@@ -24,7 +24,7 @@ const persons = new Person()
 const programeStart = async(persons: Person)=>{
     do{
     console.log(chalk.bold.italic.yellow("------------------------------------------------------------"));
-    console.log(chalk.bold.italic.yellow("----------Welcome to Moiz Areeba Nadeem OOP project----------"));
+    console.log(chalk.bold.italic.yellow("----------Welcome to Areeba Nadeem OOP project----------"));
     console.log(chalk.bold.italic.yellow("------------------------------------------------------------"));
     
     const answer = await inquirer.prompt([
